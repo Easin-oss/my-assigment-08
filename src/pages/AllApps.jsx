@@ -156,7 +156,7 @@ const AppCard = ({ app }) => {
 
 const AllApps = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [sortOrder, setSortOrder] = useState('default'); // 'default', 'high-low', 'low-high'
+  const [sortOrder, setSortOrder] = useState('default'); 
 
   const filteredAndSortedApps = useMemo(() => {
     const filtered = appData.filter(app =>
